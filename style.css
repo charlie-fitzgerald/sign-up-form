@@ -59,11 +59,24 @@ a {
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
+}
+
+.right-1, .right-2, .right-3 {
+    padding: 1.5rem;
 }
 
 .right-1 {
     height: 35%;
-    background-color: lightgray;
+    background-color: rgb(252, 250, 250);
+}
+
+.info-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1.5rem;
 }
 
 .right-2 {
