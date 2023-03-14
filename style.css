@@ -13,6 +13,10 @@ body {
     background-color: black; 
 }
 
+a {
+    color: white;
+}
+
 .container {
     display: flex;
     height: 100%;
@@ -20,7 +24,7 @@ body {
 }
 
 .left-container {
-    flex-grow: 3;
+    width: 40%;
     background-color: darkgreen;
     display: flex;
     flex-direction: column;
@@ -29,12 +33,13 @@ body {
 }
 
 .logo-banner {
-    background-color: black;
+    margin-top: 35%;
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     min-height: 15px;
     width: 100%;
-    height: 10%;
+    height: 15%;
 
     display: flex;
     justify-content: center;
@@ -47,6 +52,24 @@ body {
 }
 
 .right-container {
-    flex-grow: 5;
+    width: 60%;
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
+
+.right-1 {
+    height: 35%;
+    background-color: lightgray;
+}
+
+.right-2 {
+    height: 30%;
+    background-color: white;
+}
+
+.right-3 {
+    height: 35%;
+    background-color: gray;
+}
+
