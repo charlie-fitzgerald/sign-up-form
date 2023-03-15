@@ -204,9 +204,15 @@ legend {
     color: rgb(202, 1, 1);
 }
 
-#good-password {
+.green {
+    border: 1px solid mediumseagreen;
+}
+
+#good-msg {
+    margin: 0;
+    padding: 0;
     position: absolute;
-    color: mediumspringgreen;
+    color: mediumseagreen;
     font-size: .75rem;
 }
 
