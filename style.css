@@ -21,6 +21,18 @@ li {
     list-style: none;
 }
 
+.inputs {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.leftinputs, .rightinputs {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .container {
     display: flex;
     height: 100%;
@@ -141,6 +153,8 @@ li {
     color: white;
     border: 1px solid grey;
     border-radius: 8px;
+    width: 25%;
+    font-size: 1rem;
 }
 
 .right-3 button:hover {
@@ -149,6 +163,9 @@ li {
 }
 
 legend {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
+label {
+    display: block;
+}
