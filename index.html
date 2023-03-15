@@ -57,8 +57,12 @@
                                         <input type="email" name="email" id="email">
                                     </li>
                                     <li>
-                                        <label for="password">PASSWORD</label>
-                                        <input type="password" name="password" id="password" class="error">                                        
+                                        <div class="password-container">
+                                            <label for="password">PASSWORD</label>
+                                            <input type="password" name="password" id="password" class="error">
+                                            <p id="error-msg">*Passwords do not match</p>
+                                            <p id="good-msg" class="hidden">*Passwords match</p>
+                                        </div>                                        
                                     </li>
                                 </ul>
                             </div>
@@ -93,5 +97,7 @@
         </div>
     </section>
 
+
+    <script src="app.js"></script>
 </body>
 </html>
