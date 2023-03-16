@@ -158,11 +158,16 @@ input:focus {
 .right-2 {
     height: 30%;
     background-color: white;
+    box-shadow: 0px 5px 5px lightslategray;
+    z-index: 1;
 }
 
 .right-3 {
     height: 35%;
     background-color: rgb(236, 233, 233);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
 }
 
 .right-3 a {
@@ -182,6 +187,17 @@ input:focus {
 .right-3 button:hover {
     cursor: grab;
     background-color: aquamarine;
+}
+
+.copyright {
+    width: 100%;
+    color: cornflowerblue;
+    margin: auto 0 0 0;
+}
+
+.copyright p {
+    margin: 0 auto;
+    padding: 0;
 }
 
 legend {
